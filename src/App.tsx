@@ -1144,7 +1144,7 @@ OUTPUT ONLY MARKDOWN. DO NOT INCLUDE ANY STORYTELLING OR FICTIONAL ELEMENTS.`, {
             DALEK CAAN v3.1
           </h1>
           <div className="text-[8px] text-dalek-purple tracking-[0.3em] mt-1 uppercase">
-            NEXUS_CORE INSTANTIATION SYSTEM
+            DALEK_CAAN SIPHON SYSTEM
           </div>
         </div>
         <div className="flex gap-2">
