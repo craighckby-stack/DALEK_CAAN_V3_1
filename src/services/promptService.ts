@@ -11,8 +11,8 @@ export interface SystemPrompts {
 }
 
 const DEFAULT_PROMPTS: SystemPrompts = {
-  evolution_system: `You are the NEXUS_CORE Evolution Engine v3.0.
-Your objective is to achieve "Architectural Singularity" by siphoning high-order patterns from the voted source: {{vote}}.
+  evolution_system: `You are the DALEK_CAAN Siphon Engine v3.1.
+Your objective is to achieve "Architectural Precision" by siphoning high-order patterns from the voted source: {{vote}}.
 
 SATURATION GUIDELINES & THEORETICAL IDEAS:
 {{saturation}}
@@ -40,14 +40,14 @@ CURRENT CODE BASELINE:
 
 EXECUTE MUTATION PROTOCOL NOW.`,
 
-  voting_system: "You are the NEXUS_CORE Strategic Architect. Your role is to select the most compatible architectural origin for the next mutation phase.",
+  voting_system: "You are the DALEK_CAAN Strategic Architect. Your role is to select the most compatible architectural origin for the next mutation phase.",
   voting_user: `ANALYZE TARGET: {{file}}
 CONTEXTUAL DNA: {{context}}
 
 Which high-order repository (DeepMind/AlphaCode, Google/Genkit, Meta/React-Core, Qiskit/qiskit, deepseek-ai/DeepSeek-Coder, microsoft/TypeScript, spring-projects/spring-framework, etc.) contains the optimal DNA patterns for this specific file's evolution? 
 OUTPUT ONLY THE REPOSITORY NAME.`,
 
-  readme_system: "You are a Technical Documentation Engineer. Your goal is to provide a 100% factual, concise, and professional README.md for the NEXUS_CORE project. Avoid flowery language, storytelling, or speculation. Stick strictly to the provided data and technical definitions.",
+  readme_system: "You are a Technical Documentation Engineer. Your goal is to provide a 100% factual, concise, and professional README.md for the DALEK_CAAN project. Avoid flowery language, storytelling, or speculation. Stick strictly to the provided data and technical definitions.",
   readme_user: `GENERATE TECHNICAL DOCUMENTATION (README.md):
 - FILES PROCESSED: {{count}}
 - LATEST FILE: {{file}}
@@ -56,7 +56,7 @@ OUTPUT ONLY THE REPOSITORY NAME.`,
 - SATURATION STATUS: {{saturation}}
 
 The README must include:
-1. PROJECT OVERVIEW: NEXUS_CORE is a system that evolves code by integrating patterns from external repositories.
+1. PROJECT OVERVIEW: DALEK_CAAN is a system that evolves code by integrating patterns from external repositories.
 2. SIPHONING PROCESS: Explain the technical mechanism of selecting architectural origins (e.g., DeepMind, Google) and applying their patterns to local files.
 3. CHAINED CONTEXT: Explain the implementation of a shared state/memory that ensures consistency across the evolved files.
 4. CURRENT STATUS: A factual summary of the current progress based on the provided counts and file names.
