@@ -17,26 +17,32 @@ DALEK_CAAN is a high-performance architectural mutation system designed to trans
   - `dna_sample.txt`: A reference for high-order architectural patterns.
   - `saturation_sample.txt`: Guidelines for theoretical ideas and constraints.
 
-## 🧪 The `test-1` Case Study
+## 🧬 Siphoning Process
 
-The `craighckby-stack/test-1` repository was used as the primary testbed for this system. 
+DALEK_CAAN operates through a sophisticated architectural mutation lifecycle:
 
-### What it was built for:
-- **Pattern Validation**: Testing how the system handles raw, unoptimized code and transitions it into high-order structures.
-- **Context Chaining**: Verifying that the AI can maintain architectural consistency across multiple files in a real-world repository.
-- **Siphon Accuracy**: Measuring the effectiveness of "voting" on different architectural origins for specific file types.
+1.  **DNA Extraction**: The system analyzes a provided "Source DNA" file (e.g., `DNA (1).md`) to extract high-order architectural signatures, coding styles, and logic structures.
+2.  **Saturation Instantiation**: "Saturation Guidelines" (e.g., `SATURATION.md`) are uploaded to define the theoretical boundaries and constraints of the mutation (e.g., immutability, type safety).
+3.  **Architectural Voting**: For each target file (e.g., `nexus_core.js`), the system performs a "Strategic Vote" to select the most compatible architectural origin (e.g., `microsoft/TypeScript`).
+4.  **Mutation Execution**: The Siphon Engine integrates the extracted DNA patterns into the target file while adhering to the saturation guidelines and the selected architectural style.
+5.  **Chained Context**: A unified memory stream ensures that mutations across multiple files remain structurally consistent and logically coherent.
 
-### What others can use it for:
-- **Architectural Refactoring**: Automatically upgrading legacy codebases to modern standards (e.g., migrating to TypeScript or implementing Clean Architecture).
-- **Cross-Repo Learning**: Siphoning best practices from industry leaders and applying them to private projects.
-- **Rapid Prototyping**: Generating robust, well-architected boilerplate from minimal initial code.
+## 📊 Current Mutation Status
+
+- **Files Discovered**: 2054 (Recursive)
+- **Source DNA**: `DNA (1).md` (Instantiated)
+- **Saturation Guidelines**: `SATURATION.md` (Instantiated)
+- **Active Target**: `nexus_core.js`
+- **System Vote**: `microsoft/TypeScript` (Selected for Mutation)
+- **AI Protocol**: Triple-Fallback Active (Gemini -> Grok -> Cerebras)
+- **Status**: `LIFECYCLE ABORTED BY OPERATOR` (Standby for Restart)
 
 ## 🛠️ Installation
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/craighckby-stack/NEXUS_CORE_V3_1.git
-   cd NEXUS_CORE_V3_1
+   git clone https://github.com/craighckby-stack/DALEK_CAAN_V3_1.git
+   cd DALEK_CAAN_V3_1
    ```
 
 2. **Install dependencies**:
